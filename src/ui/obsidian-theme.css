@@ -1,0 +1,61 @@
+/* CipherLink — Obsidian Edition
+   Import this file from your app entry point (e.g. src/index.css).
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  font-family: 'Inter', sans-serif;
+  color: #F4F4F5;
+  background: #0B0D12;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at 12% 0%, rgba(139, 92, 246, 0.09), transparent 38%),
+    #0B0D12;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Manrope', 'Inter', sans-serif;
+  letter-spacing: -0.025em;
+}
+
+code, pre, .font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Consistent keyboard focus */
+:focus-visible {
+  outline: 2px solid #A78BFA;
+  outline-offset: 3px;
+}
+
+/* Polished scrollbars */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #393449 transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #393449;
+  border-radius: 999px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::selection {
+  color: #FFFFFF;
+  background: rgba(139, 92, 246, 0.38);
+}
